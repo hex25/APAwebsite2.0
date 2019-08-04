@@ -1,0 +1,130 @@
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+} 
+body {
+    background-color: black;
+}
+
+/* navbar */
+#navbar {
+    background-color: red;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    visibility: hidden;
+}
+#navbar a {
+    text-decoration: none;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#navbar-button {
+    position: fixed;
+    display: block;
+    width: 40px;
+    z-index: 2;
+    filter: invert(100%);
+    cursor: pointer;
+    margin: 10px 20px;
+
+}
+/* out now card */
+
+#out-now {
+    position: relative;
+    top: 120px;
+    right: 190px;
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 270px;
+    padding: 10px;
+}
+#out-now img {
+    width: 250px;
+    padding: 10px;
+}
+#out-now .icons-row img {
+    width: 30px;
+}
+
+/* release card */
+
+.release-card {
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    margin: 13px;
+}
+.release-card img {
+    width: 200px;
+}
+.icons-row img {
+    width: 20px;
+    padding: 7px;
+}
+
+/* page 1 */
+#page1 {
+    /*background-image: linear-gradient(to bottom, red,#e06000, yellow);*/
+    background-image: url('page1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#heading-main {
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 12vh;
+    margin: 0 auto;
+    font-size: 2.5em;
+}
+
+/* page 2 */
+
+#page2 {
+    background-color: black;
+    background-image: url('page2.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+#release-container {
+    width: 900px;
+    margin: 0 auto;
+}
+.heading {
+    padding-top: 10vh;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+/* page 3 */
+#page3 {
+    
+}
+
+
+/* helper classes */
+
+.uppercase {
+    text-transform: uppercase;
+}
