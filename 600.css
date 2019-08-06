@@ -1,0 +1,36 @@
+#page1 {
+    background-image: url('back600.png');
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+}
+#page2 {
+    background-color: black;
+    background-image: none;
+}
+
+#heading-main {
+    padding-top: 73vh;
+    font-size: 2.5em;
+    line-height: 1.4em;
+}
+
+#out-now {
+    position: relative;
+    top: -500px;
+    right: 130px;
+}
+.release-card {
+    width: 200px;
+    padding: 6px;
+    display: inline-block;
+    margin: 20px;
+}
+.release-card img {
+    width: 190px;
+    padding: 5px;
+}
+.icons-row img {
+    width: 20px;
+    padding: 8px;
+}
