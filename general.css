@@ -1,6 +1,5 @@
 /* font-family: 'Orbitron', sans-serif;
 font-family: 'Montserrat', sans-serif; */
-
 * {
     padding: 0;
     margin: 0;
@@ -53,15 +52,19 @@ body {
     padding: 10px;
     display: inline-block;
     margin: 20px;
+    opacity: 0.9;
 }
-#out-now {
-    position: relative;
-    top: 120px;
-    right: 190px;
-}
+
 .release-card img {
     width: 250px;
     padding: 10px;
+}
+.release-card p {
+    font-size: 0.8em;   
+    opacity: 0.9;
+}
+.release-card p {
+    font-size: 0.8em;   
 }
 .icons-row img {
     width: 30px;
@@ -70,24 +73,28 @@ body {
 /* page 1 */
 #page1 {
     /*background-image: linear-gradient(to bottom, red,#e06000, yellow);*/
-    background-image: url('page1.png');
+    background-image: url('back600.png');
     background-size: cover;
-    height: 100vh;
     width: 100vw;
+}
+
+#out-now {
+    position: relative;
+    top:100px;
+    right: 200px;
 }
 
 #heading-main {
     font-family: 'Orbitron', sans-serif;
-    padding-top: 12vh;
-    margin: 0 auto;
-    font-size: 2.5em;
+    margin: 17vh auto;
+    padding-bottom: 50vh;
+    font-size: 2.55em;
 }
 
 /* page 2 */
 
 #page2 {
-    background-color: black;
-    background-image: url('page2.png');
+    background-color:  black;
     background-size: cover;
     height: 100vh;
     width: 100vw;
