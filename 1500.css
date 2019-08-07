@@ -1,0 +1,38 @@
+
+
+#heading-main {
+    font-size: 3.35em;
+    margin-top: 20vh;
+}
+
+#out-now {
+    position: relative;
+    top: 15vh;
+    right:250px;
+    font-size: 1.2em;
+}
+.release-card {
+    width: 370px;
+    display: inline-block;
+    margin: 20px;
+}
+.release-card img {
+    width: 350px;
+    padding-top: 10px;
+}
+.release-card p {
+    font-size: 0.8em;   
+}
+.icons-row img {
+    width: 35px;
+    padding: 15px;
+} 
+.button {
+    margin: 20px 45px;
+}
+#navbar-button {
+    margin: 20px;
+}
+#navbar a {
+    font-size: 1.2em;
+}
