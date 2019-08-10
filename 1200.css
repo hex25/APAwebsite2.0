@@ -4,11 +4,11 @@ font-family: 'Montserrat', sans-serif; */
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: white;
 } 
 body {
     background-color: black;
+    text-align: center;
+    color: white;
 }
 
 /* navbar */
@@ -21,6 +21,7 @@ body {
 }
 #navbar a {
     text-decoration: none;
+    color: white;
 }
 .button {
     display: inline-block;
@@ -80,27 +81,45 @@ body {
 
 #out-now {
     position: relative;
-    top:100px;
+    top:70px;
     right: 200px;
 }
 
 #heading-main {
     font-family: 'Orbitron', sans-serif;
-    margin: 17vh auto;
-    padding-bottom: 50vh;
+    margin: 15vh auto;
     font-size: 2.55em;
 }
+.quote {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
 
+.quote quote {
+    font-size: 1.5em;
+    line-height: 1.6em;
+    font-weight: 100;
+    opacity: 0.9;
+}
+.quote span {
+font-weight: 400;
+}
+#page1 hr {
+        width: 500px;
+        margin: 30px auto;
+    }
+}
 /* page 2 */
 
 #page2 {
     background-color:  black;
     background-size: cover;
-    height: 100vh;
     width: 100vw;
 }
 .heading {
-    padding-top: 12vh;
+    padding: 12vh 0 7vh 0;
     margin: 0 auto;
     font-size: 1.5em;
 }
