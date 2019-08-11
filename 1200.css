@@ -78,7 +78,7 @@ body {
 /* page 1 */
 #page1 {
     /*background-image: linear-gradient(to bottom, red,#e06000, yellow);*/
-    background-image: url('back600.png');
+    background-image: url('back1200.png');
     background-size: cover;
     width: 100vw;
 }
