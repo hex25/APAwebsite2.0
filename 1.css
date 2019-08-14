@@ -1,0 +1,162 @@
+
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+} 
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.hr {
+    width:50%;
+    margin: 30px auto;
+}
+
+/* navbar */
+#navbar {
+    background-color: red;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    visibility: hidden;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+}
+.button {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+.button:hover {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#navbar-button {
+    position: fixed;
+    display: block;
+    width: 60px;
+    z-index: 2;
+    filter: invert(100%);
+    cursor: pointer;
+    margin: 40px;
+
+}
+/* release card */
+.release-card {
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
+    width: 500px;
+    padding: 6px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.release-card img {
+    width: 480px;
+    padding: 20px;
+}
+.release-card p {
+    font-size: 0.8em;   
+    opacity: 0.9;
+}
+.release-card p {
+    font-size: 0.8em;   
+}
+.icons-row img {
+    width: 50px;
+    padding: 20px;
+}
+
+/* page 1 */
+#page1 {
+    /*background-image: linear-gradient(to bottom, red,#e06000, yellow);*/
+    background-image: url('back600.png');
+    background-size: cover;
+    width: 100vw;
+}
+
+#out-now {
+    margin: 200px 0 30px 0;
+    font-size: 2em;
+}
+
+#heading-main {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    margin: 100px 0px 0px 0px;
+}
+.quote {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+
+.quote quote {
+    font-size: 1.5em;
+    line-height: 1.6em;
+    font-weight: 100;
+    opacity: 0.9;
+}
+.quote span {
+font-weight: 400;
+}
+
+/* page 2 */
+
+#page2 {
+    background-color:  black;
+    background-size: cover;
+    width: 100vw;
+}
+.heading {
+    padding: 150px 0 15px 0;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+
+/* page 3 */
+
+.contact-item {
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.contact-item:hover {
+    color:black;
+    background-color: white;
+}
+#contact-container {
+    padding: 30px 0 300px 0;
+}
+
+/* helper classes */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+    /* footer */
+
+footer {
+    font-size: 0.8em;
+    padding-bottom: 5px;
+}
